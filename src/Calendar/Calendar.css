@@ -1,0 +1,44 @@
+:root {
+    --fc-today-bg-color: #f5f6fa;
+    --fc-button-active-bg-color: #fff;
+    --fc-button-border-color: #707070;
+    --fc-button-active-border-color: #707070;
+    --fc-button-bg-color: #fff;
+    --fc-button-hover-bg-color: #fff;
+    --fc-button-text-color: #000;
+}
+
+.calendar {
+    width: 1600px;
+    min-height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+
+.fc.fc-media-screen {
+    width: 100%;
+    height: 100%;
+}
+
+.fc .fc-button-primary:not(:disabled).fc-button-active, .fc .fc-button-primary:not(:disabled):active {
+    color: #3B86FF;
+}
+
+.fc-daygrid-day {
+    width: 163px;
+    height: 135px;
+    border: 1px solid #EAF0F4;
+}
+
+.fc-daygrid-event-harness {
+    margin-bottom: 2px;
+}
+
+.fc-event {
+    /* background-color: var(--fc-event-bg-color) !important; */
+    /* border: 1px solid var(--fc-event-border-color); */
+    /* color: var(--fc-event-text-color) !important; */
+}
