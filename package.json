@@ -1,12 +1,12 @@
 {
   "name": "join_to_it_test",
   "private": true,
-  "homepage": "https://sorumond.github.io/join_to_it_test",
+  "homepage": "https://sorumond.github.io/join_to_it_test/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
